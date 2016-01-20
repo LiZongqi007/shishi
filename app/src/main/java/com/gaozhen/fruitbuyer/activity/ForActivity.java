@@ -20,5 +20,6 @@ public class ForActivity extends Activity {
 
     private void init() {
         mMeili=(TextView)findViewById(R.id.meili);
+        mMeili.setText("坚持是世界上最美的东西");
     }
 }
