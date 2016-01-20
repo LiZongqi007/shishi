@@ -8,13 +8,17 @@
         android:minSdkVersion="14"
         android:targetSdkVersion="14" />
 
+    <android:uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <android:uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <android:uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
     <application
-        android:name="com.gaozhen.fruitbuyer.application.FBApplication"
+        android:name=".application.FBApplication"
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="com.gaozhen.fruitbuyer.activity.HomeActivity"
+            android:name=".activity.HomeActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -22,25 +26,27 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.gaozhen.fruitbuyer.activity.MyOrderActivity" />
-        <activity android:name="com.gaozhen.fruitbuyer.activity.MyFruitFriendActivity" />
-        <activity android:name="com.gaozhen.fruitbuyer.activity.MyWalletActivity" />
-        <activity android:name="com.gaozhen.fruitbuyer.activity.SettingActivity" />
-        <activity android:name="com.gaozhen.fruitbuyer.activity.SeekActivity" />
-        <activity android:name="com.gaozhen.fruitbuyer.activity.OpeGardenActivity" />
-        <activity android:name="com.gaozhen.fruitbuyer.activity.MyCouponActivity" />
-        <activity android:name="com.gaozhen.fruitbuyer.activity.EditUserInfoActivity" />
-        <activity android:name="com.gaozhen.fruitbuyer.activity.FruitDetailActivity" />
-        <activity android:name="com.gaozhen.fruitbuyer.activity.LocationActivity" />
-        <activity android:name="com.gaozhen.fruitbuyer.activity.MesgeDetailActivity" />
-        <activity android:name="com.gaozhen.fruitbuyer.activity.MySystemMessageActivity" />
-        <activity android:name="com.gaozhen.fruitbuyer.activity.MyBillActivity" />
-        <activity android:name="com.gaozhen.fruitbuyer.activity.IndividuationActivity" />
-        <activity android:name="com.gaozhen.fruitbuyer.activity.GoodsDetailActivity" />
-        <activity android:name="com.gaozhen.fruitbuyer.activity.AttentionFruitActivity" />
-        <activity android:name="com.gaozhen.fruitbuyer.activity.MyShopActivity" />
-        <activity android:name="com.gaozhen.fruitbuyer.activity.AttentionFruiterActivity" />
-        <activity android:name="com.gaozhen.fruitbuyer.activity.MyIntegralActivity" />
+        <activity android:name=".activity.MyOrderActivity" />
+        <activity android:name=".activity.MyFruitFriendActivity" />
+        <activity android:name=".activity.MyWalletActivity" />
+        <activity android:name=".activity.SettingActivity" />
+        <activity android:name=".activity.SeekActivity" />
+        <activity android:name=".activity.OpeGardenActivity" />
+        <activity android:name=".activity.MyCouponActivity" />
+        <activity android:name=".activity.EditUserInfoActivity" />
+        <activity android:name=".activity.FruitDetailActivity" />
+        <activity android:name=".activity.LocationActivity" />
+        <activity android:name=".activity.MesgeDetailActivity" />
+        <activity android:name=".activity.MySystemMessageActivity" />
+        <activity android:name=".activity.MyBillActivity" />
+        <activity android:name=".activity.IndividuationActivity" />
+        <activity android:name=".activity.GoodsDetailActivity" />
+        <activity android:name=".activity.AttentionFruitActivity" />
+        <activity android:name=".activity.MyShopActivity" />
+        <activity android:name=".activity.AttentionFruiterActivity" />
+        <activity android:name=".activity.MyIntegralActivity" />
+        <activity android:name=".activity.ForActivity" >
+        </activity>
     </application>
 
 </manifest>
