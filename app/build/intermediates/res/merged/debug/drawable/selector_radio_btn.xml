@@ -3,4 +3,4 @@
     <item android:state_checked="true" android:drawable="@drawable/radio_checked"/>
     <item android:state_checked="false" android:drawable="@drawable/radio_unchecked"/>
 </selector>
-<!-- From: file:/D:/LYF-Workspace/FruitBuyer/app/src/main/res/drawable/selector_radio_btn.xml -->
+<!-- From: file:/D:/LYF/NEW/shishi/app/src/main/res/drawable/selector_radio_btn.xml -->

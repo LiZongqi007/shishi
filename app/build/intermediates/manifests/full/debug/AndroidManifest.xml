@@ -8,6 +8,10 @@
         android:minSdkVersion="14"
         android:targetSdkVersion="14" />
 
+    <android:uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <android:uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <android:uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
     <application
         android:name="com.gaozhen.fruitbuyer.application.FBApplication"
         android:allowBackup="true"
@@ -41,6 +45,8 @@
         <activity android:name="com.gaozhen.fruitbuyer.activity.MyShopActivity" />
         <activity android:name="com.gaozhen.fruitbuyer.activity.AttentionFruiterActivity" />
         <activity android:name="com.gaozhen.fruitbuyer.activity.MyIntegralActivity" />
+        <activity android:name="com.gaozhen.fruitbuyer.activity.ForActivity" >
+        </activity>
     </application>
 
 </manifest>

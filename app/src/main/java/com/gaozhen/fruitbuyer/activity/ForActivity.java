@@ -25,7 +25,7 @@ public class ForActivity extends Activity {
         mMeili.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                mMeili.setText("希望是世界上最美的东西");
             }
         });
     }

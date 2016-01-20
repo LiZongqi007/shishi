@@ -3,4 +3,4 @@
     <item android:state_checked="true" android:drawable="@drawable/tab_selected"/>
     <item android:state_checked="false" android:drawable="@color/french_grey"/>
 </selector>
-<!-- From: file:/D:/LYF-Workspace/FruitBuyer/app/src/main/res/drawable/selector_tab.xml -->
+<!-- From: file:/D:/LYF/NEW/shishi/app/src/main/res/drawable/selector_tab.xml -->

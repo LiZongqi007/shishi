@@ -110,4 +110,4 @@
         android:layout_above="@id/bottomLayout" >
     </FrameLayout>
 
-</RelativeLayout><!-- From: file:/D:/LYF-Workspace/FruitBuyer/app/src/main/res/layout/activity_home.xml -->
+</RelativeLayout><!-- From: file:/D:/LYF/NEW/shishi/app/src/main/res/layout/activity_home.xml -->
