@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/BackgroudStyle"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/Goods"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="2px"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_margin="5dp"
+            android:src="@drawable/ic_launcher" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="70dp"
+            android:layout_marginLeft="5dp"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:text="新疆和田枣土豪"
+                android:textSize="16sp" />
+
+            
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="6dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:gravity="center_vertical"
+                    android:text="打折，促销，等促销消息，上架消息...." />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/D:/LYF-Workspace/FruitBuyer/app/src/main/res/layout/item_attention_fruiter.xml -->

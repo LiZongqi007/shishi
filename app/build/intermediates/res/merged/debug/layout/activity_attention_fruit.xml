@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     style="@style/BackgroudStyle"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/lay_title"
+        layout="@layout/layout_title" />
+    <ListView
+        android:id="@+id/my_fruit"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+    </ListView>
+
+</LinearLayout>
+<!-- From: file:/D:/LYF-Workspace/FruitBuyer/app/src/main/res/layout/activity_attention_fruit.xml -->

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/BackgroudStyle"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/lay_title"
+        android:layout_alignParentTop="true"
+        layout="@layout/layout_title" />
+
+    <LinearLayout
+        android:id="@+id/ll_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/white"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="10dip" >
+
+        <EditText
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:background="@color/white" />
+
+        <View
+            android:layout_width="1px"
+            android:layout_height="match_parent"
+            android:background="?android:attr/listDivider" />
+
+        <TextView
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dip"
+            android:layout_weight="1"
+            android:text="发送"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textsize" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/ll_bottom"
+        android:layout_below="@id/lay_title"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:padding="10dip" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_launcher" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dip"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2015454165655"
+                android:textColor="@color/black"
+                android:textSize="@dimen/smallmiddletextsize" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                android:text="2015454165655"
+                android:textColor="@color/black"
+                android:textSize="@dimen/smallmiddletextsize" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lv_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/ll_bottom"
+        android:layout_below="@id/ll_top" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_above="@id/ll_bottom"
+        android:layout_below="@id/lv_list"
+        android:background="?android:attr/listDivider" />
+
+</RelativeLayout><!-- From: file:/D:/LYF-Workspace/FruitBuyer/app/src/main/res/layout/activity_my_comment.xml -->

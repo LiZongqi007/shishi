@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/BackgroudStyle"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/lay_title"
+        layout="@layout/layout_title" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            style="@style/BackgroudStyle"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:background="@drawable/user_info_bg"
+                android:src="@drawable/edittext_back1" >
+
+                <ImageView
+                    android:id="@+id/edit_head_img"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/ic_launcher" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:orientation="vertical" >
+
+                <RelativeLayout
+                    android:id="@+id/edit_phone"
+                    style="@style/HorizonItemStyle" >
+
+                    <TextView
+                        android:id="@+id/phone_num"
+                        style="@style/HorizonItemTextViewStyle"
+                        android:text="手机号"
+                        android:textColor="@color/font_grey" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerInParent="true"
+                        android:layout_marginRight="20dp"
+                        android:src="@drawable/to_right"
+                        android:visibility="gone" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/edit_pwd"
+                    style="@style/HorizonItemStyle" >
+
+                    <TextView
+                        style="@style/HorizonItemTextViewStyle"
+                        android:text="密码：******"
+                        android:textColor="@color/font_grey" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerInParent="true"
+                        android:layout_marginRight="20dp"
+                        android:src="@drawable/to_right" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/edit_name"
+                    style="@style/HorizonItemStyle" >
+
+                    <TextView
+                        android:id="@+id/nickname"
+                        style="@style/HorizonItemTextViewStyle"
+                        android:text="昵称"
+                        android:textColor="@color/font_grey" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerInParent="true"
+                        android:layout_marginRight="20dp"
+                        android:src="@drawable/to_right" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/edit_address"
+                    style="@style/HorizonItemStyle"
+                    android:visibility="gone" >
+
+                    <TextView
+                        android:id="@+id/detail_address"
+                        style="@style/HorizonItemTextViewStyle"
+                        android:text="地址"
+                        android:textColor="@color/font_grey" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerInParent="true"
+                        android:layout_marginRight="20dp"
+                        android:src="@drawable/to_right" />
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

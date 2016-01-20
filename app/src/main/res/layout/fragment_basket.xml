@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned="false"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/top_bar"
+        layout="@layout/layout_title" />
+
+    <LinearLayout
+        android:id="@+id/bottom_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="44dp"
+        android:layout_alignParentBottom="true"
+        android:background="#323232"
+        android:orientation="horizontal" >
+
+        <CheckBox
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="全选"
+            android:layout_marginLeft="6dp"
+            android:button="@drawable/selector_radio_btn"
+            android:textColor="@color/white"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="￥800.00"
+            android:visibility="visible"
+            android:textColor="@color/white"
+            android:textSize="12sp" />
+
+        <TextView
+            android:visibility="gone"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="#464646"
+            android:gravity="center"
+            android:text="移到关注"
+            android:textColor="@color/white"
+            android:textSize="12sp" />
+
+        <TextView
+            android:visibility="gone"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="#AB5816"
+            android:gravity="center"
+            android:text="删除"
+            android:textColor="@color/white"
+            android:textSize="12sp" />
+        
+        <TextView
+            android:id="@+id/to_settle"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="#464646"
+            android:gravity="center"
+            android:text="去结算"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@id/bottom_layout"
+        android:layout_below="@id/top_bar"
+        android:background="@color/french_grey"
+        android:cacheColorHint="@null"
+        android:listSelector="@drawable/selector_layout"
+        android:scrollbars="none" >
+    </ListView>
+
+</RelativeLayout>

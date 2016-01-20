@@ -1,0 +1,93 @@
+<resources>
+
+    <style name="AppTheme" parent="android:Theme.Light.NoTitleBar" />
+
+    <!-- 整体背景样式 -->
+    <style name="BackgroudStyle">
+        <item name="android:background">@color/back_grey</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">match_parent</item>
+    </style>
+
+    <!-- 底部按钮样式 -->
+    <style name="ButtonStyle">
+        <item name="android:background">@color/theme_green</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_height">@dimen/down_btn_height</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <!-- 对话框按钮样式 -->
+    <style name="DialogButtonStyle">
+        <item name="android:background">@color/theme_green</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_height">@dimen/dialog_btn_height</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <!-- 输入框样式 -->
+    <style name="EditTextStyle">
+        <item name="android:background">@drawable/edittext_back1</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:layout_height">@dimen/edittext_height</item>
+    </style>
+
+    <!-- 横向条目TextView样式 -->
+    <style name="HorizonItemTextViewStyle">
+        <item name="android:background">@color/white</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/horizon_item_height</item>
+        <item name="android:layout_marginTop">1px</item>
+        <item name="android:paddingLeft">14dp</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <!-- 横向条目样式 -->
+    <style name="HorizonItemStyle">
+        <item name="android:background">@color/white</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">1px</item>
+    </style>
+
+    <!-- 登录注册EditText条目样式 -->
+    <style name="LoginRegisterEditTextStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:layout_height">@dimen/login_edittext_height</item>
+        <item name="android:layout_marginTop">1px</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:layout_marginLeft">4dp</item>
+        <item name="android:layout_marginRight">4dp</item>
+    </style>
+    <!-- dialog样式 -->
+    <style name="gaozhen_full_window_dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:backgroundDimAmount">0.6</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+    
+     <style name="activity_anim" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/activity_in</item>
+        <item name="android:activityOpenExitAnimation">@anim/activity_no_anim</item>
+        <item name="android:activityCloseEnterAnimation">@anim/activity_no_anim</item>
+        <item name="android:activityCloseExitAnimation">@anim/activity_out</item>
+        <item name="android:taskOpenEnterAnimation">@anim/activity_in</item>
+        <item name="android:taskOpenExitAnimation">@anim/activity_no_anim</item>
+        <item name="android:taskCloseEnterAnimation">@anim/activity_no_anim</item>
+        <item name="android:taskCloseExitAnimation">@anim/activity_out</item>
+        <item name="android:taskToFrontEnterAnimation">@anim/activity_in</item>
+        <item name="android:taskToFrontExitAnimation">@anim/activity_no_anim</item>
+        <item name="android:taskToBackEnterAnimation">@anim/activity_no_anim</item>
+        <item name="android:taskToBackExitAnimation">@anim/activity_out</item>
+    </style>
+</resources>

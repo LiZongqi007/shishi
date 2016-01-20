@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e6e6e6"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dip"
+        android:background="@drawable/my_coupon_background" >
+
+        <LinearLayout
+            android:id="@+id/ll_background"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="18dip"
+            android:background="#f99200"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/store_name"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="商家名称"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/smallmiddletextsize" />
+
+            <TextView
+                android:id="@+id/money"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="￥20元"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/morelargetextsize" />
+
+            <TextView
+                android:id="@+id/order"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="订单满100元"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/smallmiddletextsize" />
+
+            <TextView
+                android:id="@+id/date"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="使用期限：2015.07.1-2015.08.9"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/smallmiddletextsize" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/get"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="12dip"
+            android:background="@drawable/my_coupon_button" />
+    </RelativeLayout>
+
+</LinearLayout><!-- From: file:/D:/LYF-Workspace/FruitBuyer/app/src/main/res/layout/item_my_coupon.xml -->

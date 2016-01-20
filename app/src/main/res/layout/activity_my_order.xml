@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/lay_title"
+        layout="@layout/layout_title" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/select"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/back_grey"
+            android:padding="10dip"
+            android:text="所有订单分类"
+            android:textColor="#6e6e6e"
+            android:textSize="@dimen/middletextsize" />
+
+        <ImageView
+            android:id="@+id/below"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp" />
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/my_order_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

@@ -1,0 +1,86 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/BackgroudStyle"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/lay_title"
+        layout="@layout/layout_title" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="当前位置"
+        android:textColor="#597474" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" 
+        android:background="#ffffff"
+        >
+
+        <TextView
+            android:id="@+id/province_first"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:gravity="center"
+             />
+
+        <TextView
+            android:id="@+id/city_two"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_height="match_parent"
+             />
+
+        <TextView
+            android:id="@+id/county_three"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_height="match_parent"
+             />
+
+        <TextView
+            android:id="@+id/location"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:text="自动定位"
+            android:textColor="#607E7E"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="省份列表"
+        android:textColor="#597474" />
+
+    <ListView
+        android:id="@+id/address_list_one"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:visibility="visible"
+        android:scrollbars="none" />
+    <ListView
+        android:id="@+id/address_list_two"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:visibility="gone"
+        android:scrollbars="none" />
+    <ListView
+        android:id="@+id/address_list_three"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:visibility="gone"
+        android:scrollbars="none" />
+
+</LinearLayout>

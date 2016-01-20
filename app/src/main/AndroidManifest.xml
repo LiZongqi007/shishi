@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.gaozhen.fruitbuyer"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="14" />
+
+    <application
+        android:name="com.gaozhen.fruitbuyer.application.FBApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.gaozhen.fruitbuyer.activity.HomeActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.gaozhen.fruitbuyer.activity.MyOrderActivity" />
+        <activity android:name="com.gaozhen.fruitbuyer.activity.MyFruitFriendActivity" />
+        <activity android:name="com.gaozhen.fruitbuyer.activity.MyWalletActivity" />
+        <activity android:name="com.gaozhen.fruitbuyer.activity.SettingActivity" />
+        <activity android:name="com.gaozhen.fruitbuyer.activity.SeekActivity" />
+        <activity android:name="com.gaozhen.fruitbuyer.activity.OpeGardenActivity" />
+        <activity android:name="com.gaozhen.fruitbuyer.activity.MyCouponActivity" />
+        <activity android:name="com.gaozhen.fruitbuyer.activity.EditUserInfoActivity" />
+        <activity android:name="com.gaozhen.fruitbuyer.activity.FruitDetailActivity" />
+        <activity android:name="com.gaozhen.fruitbuyer.activity.LocationActivity" />
+        <activity android:name="com.gaozhen.fruitbuyer.activity.MesgeDetailActivity" />
+        <activity android:name="com.gaozhen.fruitbuyer.activity.MySystemMessageActivity" />
+        <activity android:name="com.gaozhen.fruitbuyer.activity.MyBillActivity" />
+        <activity android:name="com.gaozhen.fruitbuyer.activity.IndividuationActivity" />
+        <activity android:name="com.gaozhen.fruitbuyer.activity.GoodsDetailActivity" />
+        <activity android:name="com.gaozhen.fruitbuyer.activity.AttentionFruitActivity" />
+        <activity android:name="com.gaozhen.fruitbuyer.activity.MyShopActivity" />
+        <activity android:name="com.gaozhen.fruitbuyer.activity.AttentionFruiterActivity" />
+        <activity android:name="com.gaozhen.fruitbuyer.activity.MyIntegralActivity" />
+    </application>
+
+</manifest>

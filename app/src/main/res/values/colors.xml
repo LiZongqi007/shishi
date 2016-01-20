@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="theme_green">#1cae1d</color>
+    <color name="green_light">#17cd75</color>
+    <color name="green_dark">#1C7E1D</color>
+    <color name="back_grey">#dcdcdc</color>
+    <color name="grey">#17cdb5</color>
+    <color name="grey_dark">#505050</color>
+    <color name="grey_light">#f0f0f0</color>
+    <color name="french_grey">#efefef</color>
+    <color name="font_grey">#717171</color>
+    <color name="violet">#1764cd</color>
+    <color name="violet_dark">#353F6F</color>
+    <color name="pink">#FB7375</color>
+    <color name="red">#ff0000</color>
+    <color name="red_dark">#990000</color>
+    <color name="blue">#B4B7E4</color>
+    <color name="blue_dark">#B477E4</color>
+
+    <!-- 优惠券 -->
+    <color name="one">#f99200</color>
+    <color name="two">#17cd75</color>
+    <color name="three">#fc7272</color>
+    <color name="four">#69aafb</color>
+    <color name="five">#e9b821</color>
+
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/BackgroudStyle"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/lay_title"
+        layout="@layout/layout_title" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:paddingBottom="8dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="8dp"
+        android:text="收入:$50000.00"
+        android:textColor="@color/black"
+        android:textSize="14sp" />
+
+    <ListView
+        android:id="@+id/my_bill"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+    </ListView>
+
+</LinearLayout>

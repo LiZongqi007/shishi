@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/lay_title"
+        layout="@layout/layout_title" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dip"
+        android:layout_marginRight="8dip"
+        android:layout_marginTop="10dip"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="我的积分："
+            android:textColor="@color/black"
+            android:textSize="@dimen/middletextsize" />
+
+        <TextView
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="1500"
+            android:textColor="@color/black"
+            android:textSize="@dimen/middletextsize" />
+
+        <Button
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.8"
+            android:text="兑换"
+            android:textColor="@color/black"
+            android:textSize="@dimen/smalltextsize" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="?android:attr/listDivider" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dip"
+        android:layout_marginRight="8dip"
+        android:layout_marginTop="10dip"
+        android:text="积分列表："
+        android:textColor="@color/black"
+        android:textSize="@dimen/middletextsize" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="?android:attr/listDivider" />
+
+    <ListView
+        android:id="@+id/lv_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="8dip"
+        android:layout_marginRight="8dip"
+        android:scrollbars="@null" />
+
+</LinearLayout><!-- From: file:/D:/LYF-Workspace/FruitBuyer/app/src/main/res/layout/activity_my_integral.xml -->

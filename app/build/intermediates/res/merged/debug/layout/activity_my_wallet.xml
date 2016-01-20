@@ -1,0 +1,101 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#d0e0e3"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/lay_title"
+        layout="@layout/layout_title" />
+
+    <RelativeLayout
+        style="@style/HorizonItemStyle"
+        android:background="@drawable/selector_layout" >
+
+        <TextView
+            android:id="@+id/remaining_sum"
+            style="@style/HorizonItemTextViewStyle"
+            android:background="@null"
+            android:drawableLeft="@drawable/wallet_remain"
+            android:drawablePadding="4dp"
+            android:text="余额：1500" />
+
+        <TextView
+            android:id="@+id/withdraw_cash"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="8dp"
+            android:background="@drawable/edittext_back2"
+            android:padding="8dp"
+            android:text="提现" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/recharge_layout"
+        style="@style/HorizonItemStyle"
+        android:background="@drawable/selector_layout" >
+
+        <TextView
+            android:id="@+id/recharge"
+            style="@style/HorizonItemTextViewStyle"
+            android:background="@null"
+            android:drawableLeft="@drawable/wallet_recharge"
+            android:drawablePadding="4dp"
+            android:text="充值" />
+
+        <ImageView
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:layout_marginRight="8dp"
+            android:src="@drawable/to_right" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/pay_type_layout"
+        style="@style/HorizonItemStyle"
+        android:visibility="gone"
+        android:background="@drawable/selector_layout" >
+
+        <TextView
+            style="@style/HorizonItemTextViewStyle"
+            android:background="@null"
+            android:drawableLeft="@drawable/wallet_pay"
+            android:drawablePadding="4dp"
+            android:text="支付方式：" />
+
+        <ImageView
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:layout_marginRight="8dp"
+            android:src="@drawable/to_right" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/bank_card_layout"
+        style="@style/HorizonItemStyle"
+        android:background="@drawable/selector_layout" >
+
+        <TextView
+            style="@style/HorizonItemTextViewStyle"
+            android:background="@null"
+            android:drawableLeft="@drawable/my_bankcard"
+            android:drawablePadding="4dp"
+            android:text="银行卡：" />
+
+        <ImageView
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:layout_marginRight="8dp"
+            android:src="@drawable/to_right" />
+    </RelativeLayout>
+
+</LinearLayout><!-- From: file:/D:/LYF-Workspace/FruitBuyer/app/src/main/res/layout/activity_my_wallet.xml -->

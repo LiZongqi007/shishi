@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/BackgroudStyle"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/lay_title"
+        layout="@layout/layout_title" />
+
+    <RadioGroup
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/rb_1"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/selector_tab"
+            android:button="@null"
+            android:checked="true"
+            android:gravity="center"
+            android:text="已开园" />
+
+        <RadioButton
+            android:id="@+id/rb_2"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/selector_tab"
+            android:button="@null"
+            android:checked="false"
+            android:gravity="center"
+            android:text="即将开园" />
+    </RadioGroup>
+
+    <ListView
+        android:id="@+id/open_list1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none" >
+    </ListView>
+
+    <ListView
+        android:id="@+id/open_list2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone" >
+    </ListView>
+
+</LinearLayout>

@@ -1,0 +1,104 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/BackgroudStyle"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/lay_title"
+        layout="@layout/layout_title" />
+
+    <RelativeLayout
+        android:id="@+id/user_info_layout"
+        style="@style/HorizonItemStyle"
+        android:background="@drawable/selector_layout" >
+
+        <TextView
+            style="@style/HorizonItemTextViewStyle"
+            android:background="@null"
+            android:text="个人资料" />
+
+        <ImageView
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:layout_marginRight="16dp"
+            android:src="@drawable/to_right" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/check_update_layout"
+        style="@style/HorizonItemStyle"
+        android:background="@drawable/selector_layout" >
+
+        <TextView
+            style="@style/HorizonItemTextViewStyle"
+            android:background="@null"
+            android:text="检查更新" />
+
+        <ImageView
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:layout_marginRight="16dp"
+            android:src="@drawable/to_right" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/help_layout"
+        style="@style/HorizonItemStyle"
+        android:background="@drawable/selector_layout" >
+
+        <TextView
+            style="@style/HorizonItemTextViewStyle"
+            android:background="@null"
+            android:text="帮助中心" />
+
+        <ImageView
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:layout_marginRight="16dp"
+            android:src="@drawable/to_right" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/about_layout"
+        style="@style/HorizonItemStyle"
+        android:background="@drawable/selector_layout" >
+
+        <TextView
+            style="@style/HorizonItemTextViewStyle"
+            android:background="@null"
+            android:text="关于我们" />
+
+        <ImageView
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:layout_marginRight="16dp"
+            android:src="@drawable/to_right" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/individuation"
+        style="@style/HorizonItemStyle"
+        android:background="@drawable/selector_layout" >
+
+        <TextView
+            style="@style/HorizonItemTextViewStyle"
+            android:background="@null"
+            android:text="个性化" />
+
+        <ImageView
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:layout_marginRight="16dp"
+            android:src="@drawable/to_right" />
+    </RelativeLayout>
+
+</LinearLayout>

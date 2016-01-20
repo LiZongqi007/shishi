@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/BackgroudStyle"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/lay_title"
+        layout="@layout/layout_title" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="6dp"
+        android:background="@color/white"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="6dp"
+            android:text="我的星系"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="2px"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:background="@color/back_grey"
+            android:padding="6dp" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="6dp"
+            android:text="****年*月*日*********"
+            android:textColor="@color/font_grey"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="6dp"
+            android:text="在年轻的时候，在那些充满了阳光的长长的下午，我无所事事，也无所惧怕，只因为我知道，在我的生命里有一种永远的等待。挫折会来，也会过去，热泪会流下，也会收起。没有什么可以让我气馁，因为，我有着长长的一生，而你，你一定会来。from 席慕容《写给幸福》"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+</LinearLayout>

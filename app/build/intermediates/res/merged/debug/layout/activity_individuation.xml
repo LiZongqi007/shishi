@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/BackgroudStyle"
+    android:orientation="vertical"
+    android:background="@color/white"
+     >
+
+    <include
+        android:id="@+id/lay_title"
+        layout="@layout/layout_title" />
+    <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="选择您喜欢的颜色："
+        
+        />
+     <LinearLayout 
+         android:background="@color/back_grey"
+         android:layout_width="fill_parent"
+         android:layout_height="fill_parent"
+         android:layout_marginLeft="16dp"
+         android:layout_marginRight="16dp"
+         android:layout_marginBottom="80dp"
+         android:orientation="vertical"
+         >
+         <TextView 
+             android:layout_width="fill_parent"
+             android:layout_height="0dp"
+             android:layout_weight="1"
+             android:background="@color/red"
+             />
+         
+         <TextView 
+             android:layout_width="fill_parent"
+             android:layout_height="0dp"
+             android:layout_weight="1"
+             android:background="#FFA801"
+             />
+         <TextView 
+             android:layout_width="fill_parent"
+             android:layout_height="0dp"
+             android:layout_weight="1"
+             android:background="#FFF701"
+             />
+         
+         <TextView 
+             android:layout_width="fill_parent"
+             android:layout_height="0dp"
+             android:layout_weight="1"
+             android:background="@color/theme_green"
+             />
+         <TextView 
+             android:layout_width="fill_parent"
+             android:layout_height="0dp"
+             android:layout_weight="1"
+             android:background="#02F6FF"
+             />
+         
+         <TextView 
+             android:layout_width="fill_parent"
+             android:layout_height="0dp"
+             android:layout_weight="1"
+             android:background="#0189FF"
+             />
+          <TextView 
+             android:layout_width="fill_parent"
+             android:layout_height="0dp"
+             android:layout_weight="1"
+             android:background="#F500FE"
+             />
+     </LinearLayout>
+</LinearLayout>
+<!-- From: file:/D:/LYF-Workspace/FruitBuyer/app/src/main/res/layout/activity_individuation.xml -->

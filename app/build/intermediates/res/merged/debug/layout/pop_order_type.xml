@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/obligation"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/selector_layout"
+        android:paddingBottom="6dp"
+        android:paddingLeft="14dp"
+        android:paddingTop="6dp"
+        android:text="销量"
+        android:textColor="@color/font_grey"
+        android:textSize="14sp" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:layout_marginLeft="14dp"
+        android:layout_marginRight="14dp"
+        android:background="@color/back_grey" />
+
+    <TextView
+        android:id="@+id/weit_shipments"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/selector_layout"
+        android:paddingBottom="6dp"
+        android:paddingLeft="14dp"
+        android:paddingTop="6dp"
+        android:text="价格"
+        android:textColor="@color/font_grey"
+        android:textSize="14sp" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:layout_marginLeft="14dp"
+        android:layout_marginRight="14dp"
+        android:background="@color/back_grey" />
+
+    <TextView
+        android:id="@+id/have_shipments"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/selector_layout"
+        android:paddingBottom="6dp"
+        android:paddingLeft="14dp"
+        android:paddingTop="6dp"
+        android:text="地域"
+        android:textColor="@color/font_grey"
+        android:textSize="14sp" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:layout_marginLeft="14dp"
+        android:layout_marginRight="14dp"
+        android:background="@color/back_grey" />
+
+    <TextView
+        android:id="@+id/get_goods"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/selector_layout"
+        android:paddingBottom="6dp"
+        android:paddingLeft="14dp"
+        android:paddingTop="6dp"
+        android:text="预售截止时间"
+        android:textColor="@color/font_grey"
+        android:textSize="14sp" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:layout_marginLeft="14dp"
+        android:layout_marginRight="14dp"
+        android:background="@color/back_grey" />
+
+    <TextView
+        android:id="@+id/cancel"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/selector_layout"
+        android:paddingBottom="6dp"
+        android:paddingLeft="14dp"
+        android:paddingTop="6dp"
+        android:text="成熟时间"
+        android:textColor="@color/font_grey"
+        android:textSize="14sp" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:layout_marginLeft="14dp"
+        android:layout_marginRight="14dp"
+        android:background="@color/back_grey" />
+
+    <TextView
+        android:id="@+id/abnormal_order"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/selector_layout"
+        android:paddingBottom="6dp"
+        android:paddingLeft="14dp"
+        android:paddingTop="6dp"
+        android:text="更新时间"
+        android:textColor="@color/font_grey"
+        android:textSize="14sp" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:layout_marginLeft="14dp"
+        android:layout_marginRight="14dp"
+        android:background="@color/back_grey" />
+
+    <TextView
+        android:id="@+id/seek_distance"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/selector_layout"
+        android:paddingBottom="6dp"
+        android:paddingLeft="14dp"
+        android:paddingTop="6dp"
+        android:text="距离"
+        android:textColor="@color/font_grey"
+        android:textSize="14sp" />
+
+</LinearLayout><!-- From: file:/D:/LYF-Workspace/FruitBuyer/app/src/main/res/layout/pop_order_type.xml -->

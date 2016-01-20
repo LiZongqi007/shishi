@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:orientation="horizontal" >
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="6dp"
+        android:button="@drawable/selector_radio_btn"
+        android:layout_gravity="center_vertical" />
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:padding="10dp"
+        android:src="@drawable/ic_launcher" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="4dp"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="可口鲜橙"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="5kg*1"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="￥5.00"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="4"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="4dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:visibility="visible" >
+
+        <TextView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:text="-"
+            android:textSize="16sp" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:background="@null"
+            android:gravity="center"
+            android:inputType="phone"
+            android:minWidth="60dp"
+            android:singleLine="true"
+            android:text="55"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:text="+"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="fill_parent"
+        android:background="#F17511"
+        android:gravity="center"
+        android:text="删除"
+        android:textColor="@color/white"
+        android:textSize="12sp" />
+
+</LinearLayout>

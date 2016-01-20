@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/lay_title"
+        layout="@layout/layout_title" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="8dip"
+        android:layout_marginRight="8dip"
+        android:layout_marginTop="10dip"
+        android:gravity="center"
+        android:text="积分列表："
+        android:textColor="@color/black"
+        android:textSize="@dimen/middletextsize" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="?android:attr/listDivider" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dip"
+        android:layout_marginRight="8dip"
+        android:layout_marginTop="10dip"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="积分数额"
+            android:textColor="@color/black"
+            android:textSize="@dimen/middletextsize" />
+
+        <TextView
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="积分来源"
+            android:textColor="@color/black"
+            android:textSize="@dimen/middletextsize" />
+
+        <TextView
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1.7"
+            android:gravity="center"
+            android:text="时间"
+            android:textColor="@color/black"
+            android:textSize="@dimen/middletextsize" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="?android:attr/listDivider" />
+
+    <ListView
+        android:id="@+id/lv_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="8dip"
+        android:scrollbars="@null" />
+
+</LinearLayout><!-- From: file:/D:/LYF-Workspace/FruitBuyer/app/src/main/res/layout/activity_integral_list.xml -->
